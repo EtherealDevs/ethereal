@@ -8,7 +8,6 @@ class Background extends React.Component {
       const styles = {
         backgroundColor: color,
       };
-  
       return (
         <div className="background" style={styles}>
           {children}
