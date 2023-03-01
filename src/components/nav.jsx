@@ -15,7 +15,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-gradient-to-r from-indigo-900 to-violet-600 bg-transparent" >
+    <Disclosure as="nav" className="bg-neutral-900 opacity-90 z-10" >
       {({ open }) => (
         <>
           <div className="items-center mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
