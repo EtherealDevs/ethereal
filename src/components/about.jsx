@@ -5,7 +5,7 @@ import { BsStars } from "react-icons/bs";
 
 const about = () => {
   return (
-    <div className='py-28 text-white text-center'>
+    <section id='about' className='py-28 text-white text-center'>
         <span className='relative text-center font-bold font-align-center text-4xl'>
             ¿Quienes Somos?
         </span>
@@ -14,41 +14,52 @@ const about = () => {
                 Somos tu mejor aliado para mejorar tu marca y crearte una herramienta que te ayude a potenciarla
             </span>
         </div>
-        <div className='grid grid-cols-4 grap-4 mt-20 px-4'>
+        <div className='grid grid-cols-4 grap-4 mt-20 px-6'>
             <div className='grid grid-rows-2'>
                 <div className='text-center'>
                     <MdOutlineSettingsSuggest className='text-8xl text-primary ml-28'/>
                 </div>
-                <div>
-
+                <div className='mt-3'>
+                    <p className='text-center text-xl'>
+                    Creamos Software a medida, con interfaces fuera de este planeta
+                    </p>
                 </div>
             </div>
             <div className='grid grid-rows-2'>
                 <div>
                     <BiTrendingUp className='text-8xl text-primary ml-28'/>
                 </div>
-                <div>
-
+                <div className='mt-3'>
+                <p className='text-center text-xl'>
+                Nos unimos para subir de nivel tu negocio
+                </p>
+                
                 </div>
             </div>
             <div className='grid grid-rows-2'>
                 <div>
                     <BsStars className='text-8xl text-primary ml-28'/>
                 </div>
-                <div>
-
+                <div className='mt-3'>
+                    <p className='text-center text-xl'>
+                    Perseguimos un resultado etéreo 
+                    </p>
+                    
                 </div>
             </div>
             <div className='grid grid-rows-2'>
                 <div>
 
                 </div>
-                <div>
-
+                <div className='mt-3'>
+                    <p className='text-center text-xl'>
+                    Creamos software que te permite hacer tus actividades con gran presteza
+                    </p>
+                
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

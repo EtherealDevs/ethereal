@@ -3,7 +3,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Nosotros', href: '#', current: false },
+  { name: 'Nosotros', href: '#about', current: false },
   { name: 'Servicios', href: '#', current: false },
   { name: 'Proyectos', href: '#', current: false },
   { name: 'Contacto', href: '#', current: false },
@@ -15,7 +15,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-zinc-900 opacity-50 z-10" >
+    <Disclosure as="nav" className="bg-zinc-900 opacity-50 z-20 sticky top-0" >
       {({ open }) => (
         <>
           <div className="items-center mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -33,7 +33,7 @@ export default function Example() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center font-sans text-white mr-10">
-                  <p className='font-dev font-bold'>Ethereal Devs</p>
+                  <a href='#home' className='font-dev font-bold'>Ethereal Devs</a>
                 </div>
                 <div className="ml-10 hidden sm:ml-6 sm:block">
                   <div className="ml-10 flex space-x-4">
