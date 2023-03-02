@@ -32,21 +32,17 @@ code {
   z-index: -1;
 }
 .typin {
-  
-  font-family: monospace;
-  white-space: nowrap;
+
   border-right: 4px solid;
-  width: 2.2ch;
+  width: 2.9ch;
   
-  animation: typing .6s steps(2.5), blink .5s infinite step-end alternate;
+  animation: typing .5s steps(2.5);
+  overflow: hidden;
   
   
 }
 
-  @keyFrames typing {
-    
-    from { width: 0}
-  }
+ 
   
   /* @keyFrames blink {
     50% { border-color: transparent}

@@ -3,6 +3,8 @@ import Nav from './components/nav';
 import Footer from './components/footer.jsx';
 import Background from './components/Background/background.jsx';
 import  Home  from './components/home.jsx';
+import About from './components/about';
+
 
 
 function App() {
@@ -12,10 +14,11 @@ function App() {
 
 
 
-        <Background numStars={200}/>
+        <Background numStars={500}/>
         <Nav/>
         <div className='flex-grow bg-transparent z-10'>
           <Home/>
+          <About/>
           
         </div>
         <Footer/>

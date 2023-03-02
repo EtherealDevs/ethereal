@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        'primary': '#9C9FDE'
+      },
       spacing: {
         '2/5': '45%',
       },
@@ -14,6 +17,9 @@ module.exports = {
       },
       fontFamily:{
         'dev':'Rockwell'
+      },
+      animation: {
+        'bounce-slow': 'bounce 1.5s infinite',
       }
     },
   },
