@@ -11,7 +11,7 @@ import { useMemo } from 'react';
     }, [numStars]);
   
     return (
-      <div style={{ position: 'fixed', width: '100%', height: '100%', overflow: 'hidden' }} className="bg-gradient-to-t from-black via-[#23182D] to-black">
+      <div style={{ position: 'fixed', width: '100%', height: '100%', overflow: 'hidden' }} className="bg-background">
         {stars}
       </div>
     );

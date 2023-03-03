@@ -15,7 +15,7 @@ const Star = ({ speed }) => {
     }, [speed]);
   
     return (
-      <div style={{ position: 'absolute', left: `${position.x}%`, top: `${position.y}%`, color: 'white' }}>
+      <div className='text-2xl' style={{ position: 'absolute', left: `${position.x}%`, top: `${position.y}%`, color: 'white' }}>
         .
       </div>
     );

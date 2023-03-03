@@ -2,15 +2,16 @@ import React from 'react'
 import { BiTrendingUp } from "react-icons/bi";
 import { MdOutlineSettingsSuggest } from "react-icons/md";
 import { BsStars } from "react-icons/bs";
+import { IoBalloonSharp } from "react-icons/io5";
 
 const about = () => {
   return (
-    <section id='about' className='py-28 text-white text-center'>
-        <span className='relative text-center font-bold font-align-center text-4xl'>
+    <section id='about' className=' py-28 text-white text-center'>
+        <span className='mt-80 relative text-center font-bold font-align-center text-4xl'>
             ¿Quienes Somos?
         </span>
-        <div className='mx-32'>
-            <span className='text-3xl px-8'>
+        <div className='mt-10 mx-32'>
+            <span className='mt-10 text-3xl px-8'>
                 Somos tu mejor aliado para mejorar tu marca y crearte una herramienta que te ayude a potenciarla
             </span>
         </div>
@@ -49,18 +50,22 @@ const about = () => {
             </div>
             <div className='grid grid-rows-2'>
                 <div>
-
+                    <IoBalloonSharp className='opacity-50 text-7xl text-primary ml-28'/>
                 </div>
                 <div className='mt-3'>
                     <p className='text-center text-xl'>
                     Creamos software que te permite hacer tus actividades con gran presteza
                     </p>
                 
+
                 </div>
             </div>
         </div>
+        <anime></anime>
     </section>
   )
+  
 }
+
 
 export default about

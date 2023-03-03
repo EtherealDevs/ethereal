@@ -1,3 +1,18 @@
+
+/* Scroll BAR */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+  background-image: url(./logo.svg);
+}
+
+::-webkit-scrollbar-track {
+  background-color: #581F76; /* Color de fondo de la barra de desplazamiento */
+}
+
+
+
+/* typing */
+
 .typin {
   display: block;
   font-family: monospace;
@@ -23,6 +38,9 @@ code {
     monospace;
 }
 
+
+
+/* Gradient Background */
 .background {
   position: fixed;
   top: 0;
@@ -32,12 +50,93 @@ code {
   z-index: -1;
 }
 
- 
-  
-  /* @keyFrames blink {
-    50% { border-color: transparent}
-  } */
+@keyframes back-ground {
+  from {
+    background-position: 0%;
+  }
+  to {
+    background-position: -200% center;
+  }
+}
 
+.bg-background {
+ animation: back-ground 20s linear infinite;
+ background: linear-gradient(
+  to right, black, #22182b, #150e1b, black
+ );
+ background-size: 200%;
+ height: 100vh;
+ overflow: hidden;
+ margin: 0%;
+}
+
+
+  /* Rocket */
+/* .rocket {
+  position: relative;
+  width: 100px;
+  height: 150px;
+  border-radius: 50px 50px 0 0;
+  background-color: #ccc;
+  margin: 50px auto;
+  animation: fly 2s infinite ease-in-out;
+}
+
+.body {
+  position: absolute;
+  top: 60px;
+  left: 15px;
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.window {
+  position: absolute;
+  top: 75px;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: #a5d4ff;
+  border-radius: 50%;
+}
+
+.flame {
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: radial-gradient(circle at center, #ff7f00 0%, #ff0000 100%);
+  animation: flame 1s infinite alternate ease-in-out;
+}
+
+@keyframes fly {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -30px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes flame {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+/* Fin */
 
 @tailwind base;
 @tailwind components;
