@@ -3,7 +3,7 @@
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 2ch;
+  width: 2.9ch;
   
   animation: typing 2s steps(12), blink .5s infinite step-end alternate;
   overflow:hidden;
@@ -30,16 +30,6 @@ code {
   left: 0;
   right: 0;
   z-index: -1;
-}
-.typin {
-
-  border-right: 4px solid;
-  width: 2.9ch;
-  
-  animation: typing .5s steps(2.5);
-  overflow: hidden;
-  
-  
 }
 
  

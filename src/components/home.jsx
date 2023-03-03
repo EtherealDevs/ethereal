@@ -4,17 +4,19 @@ import React from 'react'
 export  const home = () => {
   return (
     <section id='home' className=' text-center pt-40 pb-10'>
-          <span className='relative text-center font-bold font-align-center font-dev italic text-6xl text-white'>ED</span>
+          <span className='ml-auto mr-auto relative text-center font-bold typin font-align-center font-dev italic text-6xl text-white'>ED</span>
           
             
             <p className=' text-center text-white text-3xl px-72'>
                 <span className='font-bold text-4xl'>
-                Bienvenido, somos Ethereal Code
+                Bienvenido, somos Ethereal Devs
                 </span> 
                 <br />
                 la forma mas efectiva de potenciar tu
                 <br />
+                <p className='italic'>
                  negocio
+                 </p>
             </p>
           <div className="pt-12 animate-bounce-slow ">
             

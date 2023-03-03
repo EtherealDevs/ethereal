@@ -14,7 +14,7 @@ function App() {
 
 
 
-        <Background numStars={500}/>
+        <Background numStars={800}/>
         <Nav/>
         <div className='flex-grow bg-transparent z-10'>
           <Home/>

@@ -17,7 +17,7 @@ const about = () => {
         <div className='grid grid-cols-4 grap-4 mt-20 px-6'>
             <div className='grid grid-rows-2'>
                 <div className='text-center'>
-                    <MdOutlineSettingsSuggest className='text-8xl text-primary ml-28'/>
+                    <MdOutlineSettingsSuggest className='opacity-50 text-7xl text-primary ml-28'/>
                 </div>
                 <div className='mt-3'>
                     <p className='text-center text-xl'>
@@ -27,7 +27,7 @@ const about = () => {
             </div>
             <div className='grid grid-rows-2'>
                 <div>
-                    <BiTrendingUp className='text-8xl text-primary ml-28'/>
+                    <BiTrendingUp className='opacity-50 text-7xl text-primary ml-28'/>
                 </div>
                 <div className='mt-3'>
                 <p className='text-center text-xl'>
@@ -38,7 +38,7 @@ const about = () => {
             </div>
             <div className='grid grid-rows-2'>
                 <div>
-                    <BsStars className='text-8xl text-primary ml-28'/>
+                    <BsStars className='opacity-50 text-7xl text-primary ml-28'/>
                 </div>
                 <div className='mt-3'>
                     <p className='text-center text-xl'>
