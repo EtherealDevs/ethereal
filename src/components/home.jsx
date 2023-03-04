@@ -4,7 +4,7 @@ import React from 'react'
 export  const home = () => {
   return (
     <section id='home' className='text-center mt-20 pb-10'>
-          <span className='ml-auto mr-auto relative text-center font-bold typin font-align-center font-dev italic text-6xl text-white'>ED</span>
+          <span className='ml-auto mr-auto relative text-center font-bold typin font-align-center font-dev italic text-6xl text-white'>Ethereal Devs</span>
           <img src="./eth.png" class="h-80 ml-auto mr-auto" alt="Flowbite Logo" />
           
             

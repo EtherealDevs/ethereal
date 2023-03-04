@@ -18,9 +18,9 @@
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 2.9ch;
+  width: 12ch;
   
-  animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+  animation: typing 2s steps(30), blink .5s infinite step-end alternate;
   overflow:hidden;
   
 }
@@ -69,6 +69,51 @@ code {
  overflow: hidden;
  margin: 0%;
 }
+
+/* Saturno */
+
+.rings{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  border: solid 50px #f2b80d;
+  transform: rotate3d(1, 0, 0, 70deg);
+  transform-style: preserve-3d; 
+}
+.rings::before{
+  content: '';
+  position: absolute;
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+  border: solid 20px #fffa65d8;
+}
+
+.rings::after{
+  content: '';
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  border: solid 20px #f2b80d;
+}
+
+.planet{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: url(../public/planet.jpg);
+  background-size: cover;
+  transform: rotate3d(- 1, 0, 0, 70deg);
+  box-shadow: inset -20px 0 10px rgba(0, 0, 0, 0.502) 
+
+}
+
 
 
   /* Rocket */
