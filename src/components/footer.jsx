@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
-export default class footer extends Component {
-  render() {
-    return (
-      <div>
-<footer class="p-4 bg-gradient-to-r from-indigo-900 to-violet-600 rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
-    <div class="sm:flex sm:items-center sm:justify-between">
+const footer= () => {
+  
+return (
+    
+        <footer class="p-4 bg-black bg-transparent z-10 shadow md:px-6 md:py-8 ">
+        <div class="sm:flex sm:items-center sm:justify-between">
         <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
-            <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Ethereal Devs</span>
+        <img src="./eth.png" class="h-40 mr-3" alt="Flowbite Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
         </a>
         <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
@@ -24,13 +24,15 @@ export default class footer extends Component {
                 <a href="#" class="hover:underline">Contact</a>
             </li>
         </ul>
-    </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"><a href="https://flowbite.com/" class="hover:underline">Ethereal Devs™</a>. All Rights Reserved.
-    </span>
-</footer>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"><a href="https://flowbite.com/" class="hover:underline">Ethereal Devs™</a>. All Rights Reserved.
+        </span>
+        </footer>
+    
 
-      </div>
-    )
-  }
+      
+)
 }
+export default footer
+
