@@ -12,16 +12,16 @@ return (
         </a>
         <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                <a href="#" class="mr-4 hover:underline md:mr-6 ">Twitter</a>
             </li>
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                <a href="https://github.com/EtherealDevs" class="mr-4 hover:underline md:mr-6">Github</a>
             </li>
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6 ">Licensing</a>
+                <a href="https://www.instagram.com/ethereal.devs/" class="mr-4 hover:underline md:mr-6 ">Instagram</a>
             </li>
             <li>
-                <a href="#" class="hover:underline">Contact</a>
+                <a href="https://wa.me/3794798404" class="hover:underline">Whatsapp</a>
             </li>
         </ul>
         </div>
