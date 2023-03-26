@@ -11,8 +11,8 @@ const about = () => {
             Nosotros
         </span>
         <div className='mt-10 mx-32'>
-            <span className='text-slate-200 mt-10 text-center content-center font-align-center text-lg px-8'>
-                Somos tu mejor aliado para mejorar tu marca <br/> y crearte una herramienta que te ayude a potenciarla
+            <span className='text-slate-200 mt-10 text-center content-center font-align-center text-sm px-8'>
+                Somos el mejor aliado para mejorar tu marca y crearte <br/> una herramienta que te ayude a potenciarla
             </span>
         </div>
         <div className='font-light grid grid-cols-4 grap-4 mt-24 px-6'>
@@ -21,7 +21,7 @@ const about = () => {
                     <MdOutlineSettingsSuggest className='opacity-50 text-5xl text-primary ml-36'/>
                 </div>
                 <div className=''>
-                    <p className='ml-10 mr-10 text-center text-lg'>
+                    <p className='ml-10 mr-10 text-center text-sm'>
                     Creamos Software a medida, con interfaces fuera de este planeta
                     </p>
                 </div>
@@ -31,7 +31,7 @@ const about = () => {
                     <BiTrendingUp className='opacity-50 text-5xl text-primary ml-36'/>
                 </div>
                 <div className=''>
-                <p className='ml-10 mr-10 text-center text-lg'>
+                <p className='ml-10 mr-10 text-center text-sm'>
                 Nos unimos para subir de nivel tu negocio
                 </p>
                 
@@ -42,7 +42,7 @@ const about = () => {
                     <BsStars className='opacity-50 text-5xl text-primary ml-36'/>
                 </div>
                 <div className=''>
-                    <p className='ml-10 mr-10 text-center text-lg'>
+                    <p className='ml-10 mr-10 text-center text-sm'>
                         Nos enfocamos estrategicamente a brindarte una solucion de buena calidad para cumplir con el objetivo.
                     </p>
                     
@@ -53,7 +53,7 @@ const about = () => {
                     <IoBalloonSharp className='opacity-50 text-5xl text-primary ml-36'/>
                 </div>
                 <div className=''>
-                    <p className='ml-10 mr-10  text-lg'>
+                    <p className='ml-10 mr-10  text-sm'>
                     Creamos software que te permite hacer tus actividades con gran presteza
                     </p>
                 </div>

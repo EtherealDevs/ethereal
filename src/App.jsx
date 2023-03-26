@@ -7,7 +7,7 @@ import About from './components/about';
 import Faq from './components/faq';
 import Marketing from './components/marketing';
 import About2 from './components/about2';
-import Proyects from './components/proyects';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <About/>
           <About2/>
           <Marketing/>
-          <Proyects/>
+          <Contact/>
           <Faq/>
           
         </div>
