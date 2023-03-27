@@ -10,6 +10,11 @@ class Faq extends Component {
     render() {
         return (
           <div className="w-full  px-4 pt-16">
+          <h2 className='mb-10 mr-auto ml-auto text-center font-align-center'>
+                <span className='text-white relative font-bold text-3xl'>
+                Preguntas Frecuentes
+                </span>
+              </h2>
             <div className="mx-auto w-full rounded-2xl bg-transparent p-2">
               <Disclosure className="mr-auto ml-auto w-4/5 mt-2">
                 {({ open }) => (

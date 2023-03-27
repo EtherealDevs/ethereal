@@ -6,8 +6,8 @@ import { IoBalloonSharp } from "react-icons/io5";
 
 const about = () => {
   return (
-    <section id='about' className=' py-28 font-extrabold text-white text-center'>
-        <span className='mt-80 relative text-center font-bold font-align-center text-5xl'>
+    <section id='about' className='font-extrabold text-white text-center'>
+        <span className='relative text-center font-bold font-align-center text-5xl'>
             Nosotros
         </span>
         <div className='mt-10 mx-32'>
