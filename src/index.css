@@ -1,34 +1,65 @@
+.mapa{
+  position: absolute;
+  top: 36%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: -30px -20px 0 0 rgba(0, 0, 0, .1) inset,
+              -70px -30px 0 0 rgba(0, 0, 0, .1) inset,
+              5px 5px 0 0 rgba(255, 255, 255, .2) inset;
+  background: url(/public/planet.png); 
+  background-size: cover;
 
-/* Scroll BAR */
-::-webkit-scrollbar {
-  width: 10px; /* Ancho de la barra de desplazamiento */
-  background-image: url(./logo.svg);
+  animation: tierra-girando 20s infinite linear;
+
 }
 
-::-webkit-scrollbar-track {
-  background-color: #581F76; /* Color de fondo de la barra de desplazamiento */
+.anillo{ 
+  width: 500px;
+  height: 500px;
+
+  position: absolute;
+  top: 26%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 20;
 }
 
+@keyframes tierra-girando {
 
+  from {
+    background-position: left center;
+  }
+
+  to {
+    background-position: -874px center;
+  }
+}
 
 /* typing */
-
 .typin {
   display: block;
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 2.9ch;
+  width: 12ch;
   
-  animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+  animation: typing 2s steps(30), blink .5s infinite step-end alternate;
   overflow:hidden;
   
 }
+
   @keyFrames typing {
     
     from { width: 0}
   }
-  
+
   @keyFrames blink {
     50% { border-color: transparent}
   }
@@ -37,8 +68,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
 
 /* Gradient Background */
 .background {
@@ -70,74 +99,42 @@ code {
  margin: 0%;
 }
 
-
-  /* Rocket */
-/* .rocket {
-  position: relative;
-  width: 100px;
-  height: 150px;
-  border-radius: 50px 50px 0 0;
-  background-color: #ccc;
-  margin: 50px auto;
-  animation: fly 2s infinite ease-in-out;
+/* Ventana emergente */
+.ventana {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
 }
 
-.body {
-  position: absolute;
-  top: 60px;
-  left: 15px;
-  width: 70px;
-  height: 70px;
-  background-color: #fff;
-  border-radius: 50%;
+
+
+.contenido-ventana {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
 }
 
-.window {
-  position: absolute;
-  top: 75px;
-  left: 30px;
-  width: 40px;
-  height: 40px;
-  background-color: #a5d4ff;
-  border-radius: 50%;
+.cerrar {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-.flame {
-  position: absolute;
-  bottom: 0;
-  left: 25px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-image: radial-gradient(circle at center, #ff7f00 0%, #ff0000 100%);
-  animation: flame 1s infinite alternate ease-in-out;
+.cerrar:hover,
+.cerrar:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
-
-@keyframes fly {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(0, -30px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
-@keyframes flame {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-} */
-/* Fin */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

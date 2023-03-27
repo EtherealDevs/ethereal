@@ -4,7 +4,9 @@ import Footer from './components/footer.jsx';
 import Background from './components/Background/background.jsx';
 import  Home  from './components/home.jsx';
 import About from './components/about';
-import Service from './components/service';
+import Faq from './components/faq';
+import Marketing from './components/marketing';
+import About2 from './components/about2';
 
 function App() {
   return (
@@ -13,12 +15,14 @@ function App() {
 
 
 
-        <Background numStars={500}/>
-        <Nav/>
+        <Background numStars={900}/>
         <div className='flex-grow bg-transparent z-10'>
+          <Nav/>
           <Home/>
           <About/>
-          <Service/>
+          <About2/>
+          <Marketing/>
+          <Faq/>
           
         </div>
         <Footer/>
