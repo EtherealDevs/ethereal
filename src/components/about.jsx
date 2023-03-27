@@ -12,7 +12,7 @@ const about = () => {
         </span>
         <div className='mt-10 mx-32'>
             <span className='text-slate-200 mt-10 text-center content-center font-align-center text-sm px-8'>
-                Somos el mejor aliado para mejorar tu marca y crearte <br/> una herramienta que te ayude a potenciarla
+                Somos el mejor aliado para mejorar tu marca y crearte una herramienta que te ayude a potenciarla
             </span>
         </div>
         <div className='font-light grid grid-cols-4 grap-4 mt-24 px-6'>

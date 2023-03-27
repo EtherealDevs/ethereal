@@ -11,7 +11,7 @@ class Faq extends Component {
         return (
           <div className="w-full  px-4 pt-16">
             <div className="mx-auto w-full rounded-2xl bg-transparent p-2">
-              <Disclosure>
+              <Disclosure className="mr-auto ml-auto w-4/5 mt-2">
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex w-4/5 mr-auto ml-auto justify-between rounded-lg text-white bg-gradient-to-r from-[#B5B9FF] to-[#2B2C49]  px-4 py-2 text-left text-sm font-medium  hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
